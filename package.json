@@ -1,0 +1,29 @@
+{
+  "name": "we-must-react-ep-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/foxhound87/we-must-react-ep-01.git"
+  },
+  "keywords": [],
+  "author": "Claudio Savino <claudio.savino@me.com> (https://twitter.com/foxhound87)",
+  "license": "ISC",
+  "homepage": "https://github.com/foxhound87/we-must-react-ep-01",
+  "scripts": {
+    "build:prod": "webpack -p",
+    "build:dev": "webpack -d",
+    "build:watch": "webpack -d --watch"
+  },
+  "dependencies": {
+    "react": "15.2.0",
+    "react-dom": "15.2.0"
+  },
+  "devDependencies": {
+    "babel-loader": "6.2.4",
+    "babel-preset-es2015": "6.9.0",
+    "babel-preset-react": "6.11.1",
+    "webpack": "1.13.1"
+  }
+}
